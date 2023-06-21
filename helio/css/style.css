@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+#header {
+    position: relative;
+    background-image: url('../images/pizza.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 7.5em 0 2em 0;
+    cursor: default;
+}
+
+#header:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+#header .inner {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#header header {
+    display: inline-block;
+}
+
+
+#header h1 {
+    color: #fff;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#header h1 a {
+    color: inherit;
+}
+
+
+main{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.container{
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-divisao{
+    width: 30%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-divisao-container{
+    width: 96%;
+    height: 96%;
+    background-color: #E8B17D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 0.1px solid #E8B17D;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.container-divisao-container-img{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-divisao-container-img >img{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-divisao-container-titulo{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 0 0 20px 20px;
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    background: #df7366;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5em;
+    text-decoration: none;
+    padding: 0.65em 3em 0.65em 3em;
+    border: 0;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 300;
+    -moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+}
+.button a{
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+hr {
+    margin: 5%;
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.forms{
+    background-color: #E8B17D;
+    margin: 10%;
+    width: 20%;
+    align-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5%;
+    border-color: aqua;
+}
+.campos{
+    width: 5%;
+}
+input,
+select,
+textarea{
+    border-radius: 5px;
+    border-color: orange;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+.enviar{
+    background-color: #df9c5e;
+    margin: 20%;
+}
